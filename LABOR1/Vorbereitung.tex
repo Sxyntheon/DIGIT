@@ -142,8 +142,8 @@ Dieser Abschnitt wird hier ausgelassen, da die Modellierung bereits in der auf A
 Die am Modell durchzuführenden Testfolgen sollen die folgenden Testziele erfüllen:
 \begin{enumerate}
 	\item{Jeder im Modell definierte Zustandsübergang wird mindestens einmal getestet und liefert die erwartete Ausgabe}
-	\item{Dabei erfolgt in jedem explizit asynchron getesteten Fall außer dem Reset-Übergang ein Zustandsübergang erst bei der nächsten steigenden Taktflanke}
-	\item{Der Reset der Schaltung wird mindestens einmal in einem vom Startzustand verschiedenen Zustand ausgelöst in jedem getesteten Fall asynchron vor der nächsten Taktflanke ausgeführt}
+	\item{Dabei erfolgt in jedem explizit synchron getesteten Fall außer dem Reset-Übergang ein Zustandsübergang erst bei der nächsten steigenden Taktflanke}
+	\item{Der Reset der Schaltung wird dabei mindestens einmal in einem vom Startzustand verschiedenen Zustand ausgelöst in jedem getesteten Fall asynchron vor der nächsten Taktflanke ausgeführt}
 \end{enumerate}
 
 \newpage
